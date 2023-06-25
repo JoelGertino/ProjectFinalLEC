@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="98ba84c7be6141b0abbaac8de767e24a" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="Database1Model.Address" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Brand" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Cart" Width="1.5" PointX="7.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Customer" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.History" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.ModelType" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.OrderDate" Width="1.5" PointX="5.25" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.OrderDateTransaction" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Price" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.TransactionDetail" Width="1.5" PointX="10.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.TransactionHeader" Width="1.5" PointX="8.25" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="Database1Model.FK_Customer_ToAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Brand_ToHistory" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_ModelType_ToArtist" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Cart_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Cart_ModelType" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Cart_ToOrderDate" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_TransactionHeader_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__Transacti__Model__2645B050" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_ModelType_ToPrice" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_TransactionDetail_ToOrderDateTransaction" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__Transacti__Trans__2739D489" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
